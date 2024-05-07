@@ -30,28 +30,28 @@ jobs:
     - name: Start process
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\serv\clicon.exe tcp --region=eu 3389"'
     - name: Unit1 (1/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit2 (2/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit3 (3/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit4 (4/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit5 (5/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit6 (6/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit7 (7/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit8 (8/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit9 (9/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit10 (10/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit11 (11/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit12 (12/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
     - name: Unit13 (13/13)
-      run: cmd -c "ping localhost -n 3600"
+      run: cmd /c "timeout /t 1800"
